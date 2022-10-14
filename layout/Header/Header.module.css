@@ -1,0 +1,40 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: var(--grey);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Roboto;
+}
+
+
+.toolsItem {
+    display: inline;
+    margin-right: 25px;
+    color: var(--light-grey);
+
+}
+
+.toolsItem:last-child {
+    margin-right: 0;
+}
+
+.toolslist {
+    list-style: none;
+    padding: 0;
+}
+
+
+.myResume {
+    color: var(--light-grey);
+
+}
+
+
+.closeIcon {
+    justify-self: end;
+}

@@ -1,0 +1,42 @@
+.sidebar {
+
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+
+}
+
+.avatarwrapper {
+    display: grid;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    border: none;
+    margin: 0;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.name,
+.hello,
+.frontend {
+    text-align: center;
+}
+
+.name {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.hello,
+.frontend {
+    font-size: 18px;
+}

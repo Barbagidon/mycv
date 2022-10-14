@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Consolas;
+  src: url(../fonts/consolas.ttf);
+}
+
+html,
+body {
+  padding: 0;
+
+  margin: 0;
+  font-family: Consolas;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --grey: #3C3C3C;
+  --light-grey: #CCCCCC;
+  --white: #F9F9F9;
+  --green: #62DCB9;
+  --light-green: #9AD471;
+  --red: #E64F72;
+  --link-color: #039BE5;
+  --background-color: #252526;
+}
