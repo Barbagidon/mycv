@@ -1,7 +1,5 @@
 import { withLayout } from "../layout/Layout";
+import { layoutForPagesContent } from "../page-components/layoutPages";
+import { ProjectPage } from "../page-components/ProjectsPage/projectPage";
 
-function Project(): JSX.Element {
-  return <div>Project</div>;
-}
-
-export default withLayout(Project);
+export default withLayout(layoutForPagesContent(ProjectPage));

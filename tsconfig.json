@@ -17,6 +17,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.custom.d.ts", "svg.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.custom.d.ts", "svg.d.ts", "**/*.ts", "**/*.tsx", "src/components/ObjectText/Objecttsx"],
   "exclude": ["node_modules"]
 }

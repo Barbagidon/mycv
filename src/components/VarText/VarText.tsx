@@ -1,7 +1,8 @@
 import cn from "classnames";
 
 import { VarTextProps } from "./VarText.props";
-import styles from "./Htag.module.css";
+import styles from "./VarText.module.css";
+import { Htag } from "../Htag/Htag";
 
 export const VarText = ({
   varname,
@@ -11,10 +12,12 @@ export const VarText = ({
 }: VarTextProps): JSX.Element => {
   return (
     <div {...props} className={cn(styles.textInner, className)}>
-      <span className={styles.variable}>const</span>
-      <span className={styles.varname}>{varname}</span>
-      <span className={styles.equals}>=</span>
-      <span className={styles.text}>{text}</span>
+      <Htag className={styles.header} tag="h3">
+        <span className={styles.variable}>const</span>
+        <span className={styles.varname}>{varname}</span>
+        <span className={styles.equals}>=</span>
+        {text ? <span className={styles.text}>{text}</span> : null}
+      </Htag>
     </div>
   );
 };
