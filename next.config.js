@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type, @typescript-eslint/no-unused-vars
   webpack(config, options) {
     config.module.rules.push({
       loader: "@svgr/webpack",

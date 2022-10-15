@@ -1,0 +1,47 @@
+.aboutpage {
+    padding-left: 30px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas: 'numberlist codetextWrapper';
+    grid-template-columns: auto 1fr;
+}
+
+
+
+.numberlist {
+    grid-area: numberlist;
+}
+
+.codetextWrapper {
+    grid-area: codetextWrapper;
+    font-size: 18px;
+}
+
+.textInner {
+    transform: translateY(-2px);
+    margin-top: 12px;
+}
+
+.textInner:first-child {
+    margin-top: 0px;
+}
+
+.const {
+    color: var(--green);
+    margin-right: 10px
+}
+
+.varname {
+    color: var(--red);
+    margin-right: 10px;
+
+}
+
+.equals {
+    color: var(--yellow);
+    margin-right: 10px;
+}
+
+.text {
+    color: var(--light-green)
+}

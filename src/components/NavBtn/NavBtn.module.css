@@ -1,0 +1,23 @@
+.navBtn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 200px;
+	width: 100%;
+	padding: 14px 12px 14px 32px;
+	background-color: var(--not-active-nav);
+	border: none;
+	font-size: 18px;
+	color: var(--light-grey);
+	cursor: pointer;
+}
+
+
+.active {
+	background-color: var(--black)
+}
+
+
+.notactive {
+	background-color: var(--not-active-nav);
+}

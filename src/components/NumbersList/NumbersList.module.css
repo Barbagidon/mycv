@@ -1,0 +1,17 @@
+.numberlist {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+.numberItem {
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--grey);
+    margin-top: 12px;
+}
+
+.numberItem:first-child {
+    margin-top: 0;
+}

@@ -2,13 +2,17 @@
 	display: grid;
 	grid-template-areas:
 		"header header"
+		"sidebar nav"
 		"sidebar body";
 
+	grid-template-rows: auto 52px auto;
 	grid-template-columns: 360px 1fr;
 
 }
 
-
+.nav {
+	grid-area: nav;
+}
 
 .header {
 	grid-area: header;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: Consolas;
-  src: url(../fonts/consolas.ttf);
+  src: url(../src/fonts/consolas.ttf);
 }
 
 html,
@@ -30,6 +30,9 @@ a {
 
 
 :root {
+  --black: #1E1E1E;
+  --yellow: #AB904E;
+  --not-active-nav: #2D2D2D;
   --grey: #3C3C3C;
   --light-grey: #CCCCCC;
   --white: #F9F9F9;
