@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }): JSX.Element {
       <Head>
         <title>Denis Shtiller CV</title>
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
