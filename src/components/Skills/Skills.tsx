@@ -27,27 +27,33 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
 
   return (
     <div className={styles.listwrapper}>
-      <button
-        onClick={(): PayloadAction<boolean> =>
-          dispatch(showSkillsList(!visibleSkillsList))
-        }
-        className={styles.arrowbutton}
+      <div className={styles.headerItem}>
+        <button
+          onClick={(): PayloadAction<boolean> =>
+            dispatch(showSkillsList(!visibleSkillsList))
+          }
+          className={styles.arrowbutton}
+        >
+          {" "}
+          <ArrowIcon
+            className={cn(styles.arrowicon, {
+              [styles.active]: visibleSkillsList,
+              [styles.notactive]: !visibleSkillsList,
+            })}
+          />
+        </button>
+        {visibleSkillsList ? <FolderIcons /> : <CloseFolderIcon />}
+        <Htag className={styles.listheader} tag="h3">
+          MY_SKILLS
+        </Htag>
+      </div>
+      <ul
+        {...props}
+        className={cn(className, styles.skilllist, {
+          [styles.activeItem]: visibleSkillsList,
+          [styles.notactiveitem]: !visibleSkillsList,
+        })}
       >
-        {" "}
-        <ArrowIcon
-          className={cn(styles.arrowicon, {
-            [styles.active]: visibleSkillsList,
-            [styles.notactive]: !visibleSkillsList,
-          })}
-        />
-      </button>
-      <ul {...props} className={cn(className, styles.skilllist)}>
-        <li className={styles.headerItem}>
-          {visibleSkillsList ? <FolderIcons /> : <CloseFolderIcon />}
-          <Htag className={styles.listheader} tag="h3">
-            MY_SKILLS
-          </Htag>
-        </li>
         <li
           className={cn(styles.listItem, {
             [styles.activeItem]: visibleSkillsList,
