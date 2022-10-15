@@ -39,4 +39,10 @@
 .hello,
 .frontend {
     font-size: 18px;
+    margin-top: 4px;
+}
+
+.frontend {
+    font-weight: 400;
+    text-decoration: underline;
 }
