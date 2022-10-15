@@ -8,7 +8,7 @@ import CloseFolderIcon from "./Icons/closeFolder.svg";
 import NextIcon from "./Icons/nextIcon.svg";
 import ReactIcon from "./Icons/reactIcon.svg";
 import ReduxIcon from "./Icons/reduxIcon.svg";
-import TsIcon from "./Icons/tsIcon.svg";
+import TsIcon from "./Icons/tsicon.svg";
 import JavascriptIcon from "./Icons/javascriptIcon.svg";
 import CSSIcon from "./Icons/CssIcon.svg";
 import SassIcon from "./Icons/SassIcon.svg";

@@ -1,5 +1,5 @@
 import { VarText } from "../../components/VarText/VarText";
-import styles from "./ContactsPage.module.css";
+import styles from "./contactsPage.module.css";
 import { ContactsPageProps } from "./contactsPage.props";
 
 export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
