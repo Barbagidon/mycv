@@ -1,5 +1,14 @@
 // eslint-disable-next-line no-undef
 module.exports = {
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/about",
+        permanent: true,
+      },
+    ];
+  },
   webpack(config, options) {
     config.module.rules.push({
       loader: "@svgr/webpack",
