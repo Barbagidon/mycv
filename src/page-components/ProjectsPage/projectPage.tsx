@@ -1,9 +1,8 @@
 import { VarText } from "../../components/VarText/VarText";
 import styles from "./projectPage.module.css";
 import { ProjectPageProps } from "./projectPage.props";
-import cn from "classnames";
+
 import { ProjectsObjects } from "../../components/ProjectsObjects/ProjectsObjects";
-import { ObjectText } from "../../components/ObjectText/ObjectText";
 
 export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
   return (

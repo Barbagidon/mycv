@@ -1,7 +1,6 @@
 import { withLayout } from "../layout/Layout";
+import { ContactsPage } from "../page-components/ContactsPage/contactsPage";
 
-function Contacts(): JSX.Element {
-  return <div>Contacts</div>;
-}
+import { layoutForPagesContent } from "../page-components/layoutPages";
 
-export default withLayout(Contacts);
+export default withLayout(layoutForPagesContent(ContactsPage, 25));
