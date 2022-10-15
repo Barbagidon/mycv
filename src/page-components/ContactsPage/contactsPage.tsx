@@ -33,7 +33,7 @@ export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
             target={"_blank"}
             href="https://t.me/bit_Makar"
           >
-            @bit_Makar'
+            @bit_Makar
           </a>
         }
         varname="myTelegram"
