@@ -34,7 +34,6 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
           }
           className={styles.arrowbutton}
         >
-          {" "}
           <ArrowIcon
             className={cn(styles.arrowicon, {
               [styles.active]: visibleSkillsList,
@@ -50,7 +49,6 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
       <ul
         {...props}
         className={cn(className, styles.skilllist, {
-          [styles.activeItem]: visibleSkillsList,
           [styles.notactiveitem]: !visibleSkillsList,
         })}
       >

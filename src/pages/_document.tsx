@@ -19,9 +19,12 @@ class MyDocument extends Document {
     return (
       <Html lang="ru">
         <Head></Head>
+
         <body>
-          <Main></Main>
-          <NextScript></NextScript>
+          <div className="scroll">
+            <Main></Main>
+            <NextScript></NextScript>
+          </div>
         </body>
       </Html>
     );
