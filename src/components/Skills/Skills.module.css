@@ -5,7 +5,29 @@
 	align-items: baseline;
 	gap: 0 12px;
 	padding-left: 55px;
+	padding-bottom: 20px;
 	margin-top: 32px;
+	overflow-y: auto;
+	height: 32vh;
+}
+
+.listwrapper::-webkit-scrollbar {
+	width: 2px;
+	/* ширина всей полосы прокрутки */
+}
+
+.listwrapper::-webkit-scrollbar-track {
+	background: var(--background-color);
+	/* цвет зоны отслеживания */
+}
+
+.listwrapper::-webkit-scrollbar-thumb {
+	background-color: var(--background-color);
+	/* цвет бегунка */
+	border-radius: 20px;
+	/* округлось бегунка */
+	border: 3px solid rgba(255, 255, 255, 0.2);
+	/* отступ вокруг бегунка */
 }
 
 .arrowbutton {

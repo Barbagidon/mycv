@@ -23,7 +23,28 @@
 }
 
 .body {
+	height: 85vh;
+	overflow-y: auto;
 	grid-area: body;
+}
+
+.body::-webkit-scrollbar {
+	width: 2px;
+	/* ширина всей полосы прокрутки */
+}
+
+.body::-webkit-scrollbar-track {
+	background: var(--background-color);
+	/* цвет зоны отслеживания */
+}
+
+.body::-webkit-scrollbar-thumb {
+	background-color: var(--background-color);
+	/* цвет бегунка */
+	border-radius: 20px;
+	/* округлось бегунка */
+	border: 3px solid rgba(255, 255, 255, 0.2);
+	/* отступ вокруг бегунка */
 }
 
 .footer {
