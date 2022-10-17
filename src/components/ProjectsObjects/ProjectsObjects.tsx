@@ -11,7 +11,6 @@ export const ProjectsObjects = ({
   stackTitle,
   projectTitle,
   projectDescription,
-  className,
   ...props
 }: ProjectsObjectsProps): JSX.Element => {
   return (
@@ -21,7 +20,7 @@ export const ProjectsObjects = ({
         <span className={styles.literall}>{"{"}</span>
       </div>
 
-      <div className={styles.objecttextwrapper}>
+      <ul className={styles.objecttextwrapper}>
         <li className={styles.objecttext}>
           <ObjectText
             objKey={projectTitle}
@@ -32,7 +31,7 @@ export const ProjectsObjects = ({
         <li className={styles.objecttext}>
           <ObjectText objKey={stackTitle} objValue={stackDescr}></ObjectText>
         </li>
-      </div>
+      </ul>
       <span className={styles.literall}>{"}"}</span>
     </>
   );

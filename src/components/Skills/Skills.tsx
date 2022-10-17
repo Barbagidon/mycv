@@ -31,13 +31,13 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
         [styles.withoutscroll]: !visibleSkillsList,
       })}
     >
-      <div className={styles.headerItem}>
-        <button
-          onClick={(): PayloadAction<boolean> =>
-            dispatch(showSkillsList(!visibleSkillsList))
-          }
-          className={styles.arrowbutton}
-        >
+      <div
+        onClick={(): PayloadAction<boolean> =>
+          dispatch(showSkillsList(!visibleSkillsList))
+        }
+        className={styles.headerItem}
+      >
+        <button className={styles.arrowbutton}>
           <ArrowIcon
             className={cn(styles.arrowicon, {
               [styles.active]: visibleSkillsList,

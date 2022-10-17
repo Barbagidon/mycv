@@ -1,18 +1,9 @@
-.aboutpage {
+.pagewrapper {
     background-color: var(--black);
-    padding-top: 50px;
-    display: grid;
-    grid-template-areas: 'numberlist codetextWrapper';
-    grid-template-columns: auto 1fr;
-    padding-left: 30px;
 }
 
-.numberlist {
-    grid-area: numberlist;
-    margin-right: 25px;
-}
+
 
 .codetextWrapper {
-    grid-area: codetextWrapper;
     font-size: 18px;
 }

@@ -34,10 +34,38 @@
 
 .myResume {
     color: var(--light-grey);
+    font-weight: 400;
 
 }
 
 
 .closeIcon {
     justify-self: end;
+    height: 24px;
+
+}
+
+
+
+@media (max-width:1300px) {
+    .header {
+        grid-template-columns: 1fr auto;
+        justify-items: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+
+    .toolslist {
+        display: none;
+    }
+
+    .myResume {
+        margin: 0 !important;
+    }
+
+
+
 }

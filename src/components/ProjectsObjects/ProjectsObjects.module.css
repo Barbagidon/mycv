@@ -19,11 +19,12 @@
 	margin: 0;
 	padding-top: 25px;
 	list-style: none;
+	padding-left: 50px;
 }
 
 .objecttext {
 	margin-top: 32px;
-	padding-left: 50px;
+
 }
 
 .secondkeyskeys {
@@ -71,12 +72,11 @@
 }
 
 .coursestext {
-	color: var(--light-green)
-}
-
-.coursestext {
+	color: var(--light-green);
 	margin-top: 32px;
 }
+
+
 
 .coursestext:first-child {
 	margin-top: 0;
@@ -89,4 +89,16 @@
 	padding-top: 24px;
 	padding-left: 60px;
 	border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+@media(max-width:1300px) {
+
+	.objecttextwrapper {
+		padding-left: 25px;
+	}
+
+	.objecttext{
+		margin-top: 20px;
+	}
 }

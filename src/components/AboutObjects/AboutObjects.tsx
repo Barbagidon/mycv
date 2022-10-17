@@ -16,7 +16,7 @@ export const AboutObjects = ({
         <span className={styles.literall}>{"{"}</span>
       </div>
 
-      <ul className={styles.objecttextwrapper}>
+      <ul className={cn(styles.objecttextwrapper, styles.about)}>
         <li className={styles.objecttext}>
           <ObjectText
             objKey={`'Очень люблю учиться и очень люблю фронтенд'`}
@@ -68,9 +68,9 @@ export const AboutObjects = ({
         <VarText varname={"placesOfWork"} />
         <span className={styles.literall}>{"{"}</span>
       </div>
-      <div className={styles.objecttextwrapper}>
+      <div className={cn(styles.objecttextwrapper,styles.placeofworkwrapper)}>
         <div className={styles.objectkey}>{"cryptoCurrencyExchange: {"}</div>
-        <ul className={styles.secondkeyswrapper}>
+        <ul className={cn(styles.secondkeyswrapper, styles.placesOfWork)}>
           <li className={cn(styles.secondkeyskeys)}>
             <ObjectText
               objKey={`'Писал тз для разработчиков по результатам анализа других криптопроектов'`}
@@ -139,7 +139,7 @@ export const AboutObjects = ({
         <VarText varname={"myCourses"} />
         <span className={styles.literall}>{"["}</span>
       </div>
-
+      
       <ul className={styles.coursesWrapper}>
         <li className={styles.coursestext}>
           'Полный курс по JavaScript + React - с нуля до результата',

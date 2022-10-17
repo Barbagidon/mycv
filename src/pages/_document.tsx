@@ -21,10 +21,8 @@ class MyDocument extends Document {
         <Head></Head>
 
         <body>
-          <div className="scroll">
-            <Main></Main>
-            <NextScript></NextScript>
-          </div>
+          <Main></Main>
+          <NextScript></NextScript>
         </body>
       </Html>
     );

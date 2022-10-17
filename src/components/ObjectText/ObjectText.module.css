@@ -13,3 +13,19 @@
 .white {
 	color: var(--white);
 }
+
+
+@media (max-width:1300px) {
+	.textInner {
+		max-width: 585px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width:1100px) {
+	.textInner {
+		font-size: 14px;
+		line-height: 16px;
+		max-width: 564px;
+	}
+}

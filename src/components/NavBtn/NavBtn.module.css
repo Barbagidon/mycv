@@ -21,3 +21,22 @@
 .notactive {
 	background-color: var(--not-active-nav);
 }
+
+.closeIcon{
+	width: 24px;
+	height: 24px;
+}
+
+
+@media(max-width:1100px) {
+	.navBtn {
+		max-width: 120px;
+		font-size: 14px;
+		padding: 12px;
+	}
+
+	.closeIcon {
+		width: 14px;
+		height: 14px;
+	}
+}
