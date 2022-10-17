@@ -109,7 +109,7 @@
 	.coursesWrapper {
 		padding-top: 12px;
 		margin-left: 0;
-		padding-left: 10px;
+		padding-left: 15px;
 	}
 
 
@@ -122,12 +122,10 @@
 	.objecttextwrapper {
 		padding-top: 8px;
 		padding-bottom: 0px;
-		padding-left: 10px;
+		padding-left: 25px;
 	}
 
-	.placeofworkwrapper {
-		padding-top: 0;
-	}
+
 
 	.placesOfWork {
 		padding-top: 8px;

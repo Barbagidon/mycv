@@ -60,6 +60,7 @@
 	margin-left: 30px;
 	margin-top: 20px;
 	transition: all 0.3s;
+	height: auto;
 
 }
 
@@ -145,5 +146,38 @@
 		width: 16px;
 		height: 16px;
 	}
+
+}
+
+
+@media(max-width: 590px) {
+	.listwrapper {
+
+		overflow: hidden;
+		height: auto;
+
+	}
+
+	.skilllist {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		height: 168px;
+	}
+
+	.notactiveitem {
+		margin: 0;
+		height: 0;
+		opacity: 0;
+	
+	}
+
+	.arrowbutton {
+		margin-right: 12px;
+	}
+
+	.listwrapper {
+		padding-bottom: 0px;
+	}
+
 
 }

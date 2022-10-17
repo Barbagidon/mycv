@@ -70,3 +70,24 @@
 	}
 
 }
+
+
+@media(max-width: 590px) {
+	.wrapper {
+		grid-template-areas:
+			"header"
+			"sidebar"
+			"nav"
+			"body";
+
+		grid-template-rows: auto;
+		grid-template-columns: 1fr;
+
+	}
+
+	.body {
+		overflow: hidden;
+		height: auto;
+	}
+
+}

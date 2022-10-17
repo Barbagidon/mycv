@@ -69,3 +69,13 @@
 
 
 }
+
+
+
+@media (max-width:590px) {
+    .header {
+
+
+        padding-left: 30px;
+    }
+}

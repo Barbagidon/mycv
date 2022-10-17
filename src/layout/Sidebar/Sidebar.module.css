@@ -61,3 +61,11 @@
     }
 
 }
+
+
+@media (max-width:590px) {
+    .sidebar {
+        padding-bottom: 30px;
+    }
+
+}

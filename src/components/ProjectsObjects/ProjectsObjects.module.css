@@ -8,6 +8,8 @@
 	color: var(--white)
 }
 
+
+
 .tlglink {
 	color: var(--link-color);
 	text-decoration: underline;
@@ -96,10 +98,15 @@
 
 	.objecttextwrapper {
 		padding-top: 12px;
-		padding-left: 10px;
+		padding-left: 25px;
 	}
 
 	.objecttext {
 		margin-top: 20px;
+	}
+
+	.literallInObject,
+	.literall {
+		font-size: 14px;
 	}
 }
