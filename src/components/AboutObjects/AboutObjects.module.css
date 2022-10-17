@@ -91,36 +91,16 @@
 	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 1300px) {
 
-	.objecttextwrapper,
-	.coursesWrapper {
-		padding-left: 25px;
-	}
 
-	.objectkey,
-	.secondkeyswrapper,
-	.literallInObject {
-		margin-left: 0;
-	}
-
-	.coursestext {
-		margin-top: 10px;
-	}
-
-	.coursestext:first-child {
-		margin-top: 8px;
-	}
-
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
 
 	.objectkey,
 	.coursestext,
 	.literall,
 	.literallInObject {
 		font-size: 14px;
+		margin-left: 0;
 	}
 
 
@@ -128,6 +108,8 @@
 	.secondkeyswrapper,
 	.coursesWrapper {
 		padding-top: 12px;
+		margin-left: 0;
+		padding-left: 10px;
 	}
 
 
@@ -140,6 +122,7 @@
 	.objecttextwrapper {
 		padding-top: 8px;
 		padding-bottom: 0px;
+		padding-left: 10px;
 	}
 
 	.placeofworkwrapper {

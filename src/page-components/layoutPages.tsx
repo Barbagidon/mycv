@@ -3,11 +3,7 @@ import cn from "classnames";
 import { FunctionComponent } from "react";
 
 export function LayoutPages({ children, ...props }): JSX.Element {
-  return (
-    <div {...props} className={cn(styles.pagewrapper)}>
-      <div className={styles.codetextWrapper}>{children}</div>
-    </div>
-  );
+  return <div className={styles.codetextWrapper}>{children}</div>;
 }
 
 export const layoutForPagesContent = <T extends Record<string, unknown>>(

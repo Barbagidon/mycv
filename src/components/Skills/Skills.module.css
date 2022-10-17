@@ -63,6 +63,11 @@
 
 }
 
+.skillicon {
+	width: 24px;
+	height: 24px;
+}
+
 .headerItem {
 	display: flex;
 	align-items: center;
@@ -115,16 +120,30 @@
 
 
 
-@media (max-width:1100px) {
+@media (max-width:1024px) {
 
-	.listheader,
-	.listItem {
+	.listheader {
 		font-size: 14px;
 	}
 
+	.listItem {
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width:768px) {
 	.listwrapper {
-		overflow: hidden;
-		height: auto;
+		padding-left: 30px;
+	}
+
+	.arrowbutton {
+		margin-right: 8px;
+	}
+
+	.skillicon {
+		width: 16px;
+		height: 16px;
 	}
 
 }

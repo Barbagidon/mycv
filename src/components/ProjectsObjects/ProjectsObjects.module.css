@@ -92,13 +92,14 @@
 }
 
 
-@media(max-width:1300px) {
+@media(max-width:1024px) {
 
 	.objecttextwrapper {
-		padding-left: 25px;
+		padding-top: 12px;
+		padding-left: 10px;
 	}
 
-	.objecttext{
+	.objecttext {
 		margin-top: 20px;
 	}
 }

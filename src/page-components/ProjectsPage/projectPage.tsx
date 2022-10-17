@@ -8,7 +8,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
   return (
     <div {...props}>
       <VarText
-        text={`"Marvel information portal"`}
+        text={`"Marvel portal"`}
         varname="projectName"
       ></VarText>
       <VarText

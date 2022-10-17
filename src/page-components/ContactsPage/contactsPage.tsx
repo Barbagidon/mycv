@@ -45,7 +45,7 @@ export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
             target={"_blank"}
             href="https://join.skype.com/invite/m6dJ1xdOw3AW"
           >
-            live:.cid.68a0e2082fa4214e
+            link
           </a>
         }
         varname="mySkype"

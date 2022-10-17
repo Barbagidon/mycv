@@ -1,9 +1,10 @@
-.pagewrapper {
+/* .pagewrapper {
     background-color: var(--black);
-}
+} */
 
 
 
 .codetextWrapper {
     font-size: 18px;
+    padding: 25px;
 }

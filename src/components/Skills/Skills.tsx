@@ -39,13 +39,17 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
       >
         <button className={styles.arrowbutton}>
           <ArrowIcon
-            className={cn(styles.arrowicon, {
+            className={cn(styles.arrowicon, styles.skillicon, {
               [styles.active]: visibleSkillsList,
               [styles.notactive]: !visibleSkillsList,
             })}
           />
         </button>
-        {visibleSkillsList ? <FolderIcons /> : <CloseFolderIcon />}
+        {visibleSkillsList ? (
+          <FolderIcons className={styles.skillicon} />
+        ) : (
+          <CloseFolderIcon className={styles.skillicon} />
+        )}
         <Htag className={styles.listheader} tag="h3">
           MY_SKILLS
         </Htag>
@@ -62,7 +66,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <NextIcon />
+          <NextIcon className={styles.skillicon} />
           <span className={styles.listItemText}>Next.js</span>
         </li>
         <li
@@ -71,7 +75,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <ReactIcon />
+          <ReactIcon className={styles.skillicon} />
           <span className={styles.listItemText}>React.js</span>
         </li>
         <li
@@ -80,7 +84,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <ReduxIcon />
+          <ReduxIcon className={styles.skillicon} />
           <span className={styles.listItemText}>Redux-toolkit</span>
         </li>
         <li
@@ -89,7 +93,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <TsIcon />
+          <TsIcon className={styles.skillicon} />
           <span className={styles.listItemText}>Typescript</span>
         </li>
         <li
@@ -98,7 +102,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <JavascriptIcon />
+          <JavascriptIcon className={styles.skillicon} />
           <span className={styles.listItemText}>Javascript</span>
         </li>
         <li
@@ -107,7 +111,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <CSSIcon />
+          <CSSIcon className={styles.skillicon} />
           <span className={styles.listItemText}>CSS</span>
         </li>
         <li
@@ -116,7 +120,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <SassIcon />
+          <SassIcon className={styles.skillicon} />
           <span className={styles.listItemText}>Sass</span>
         </li>
         <li
@@ -125,7 +129,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <HTMLIcon />
+          <HTMLIcon className={styles.skillicon} />
           <span className={styles.listItemText}>HTML</span>
         </li>
         <li
@@ -134,7 +138,7 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
             [styles.notactiveitem]: !visibleSkillsList,
           })}
         >
-          <GitIcon />
+          <GitIcon className={styles.skillicon} />
           <span className={styles.listItemText}>git</span>
         </li>
       </ul>
