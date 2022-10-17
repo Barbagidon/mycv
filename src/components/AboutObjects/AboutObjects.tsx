@@ -73,7 +73,7 @@ export const AboutObjects = ({
         <ul className={styles.secondkeyswrapper}>
           <li className={cn(styles.secondkeyskeys)}>
             <ObjectText
-              objKey={`'Писал тз для разработчиков'`}
+              objKey={`'Писал тз для разработчиков по результатам анализа других криптопроектов'`}
               objValue={`'Анализировал конкурентов, смотрел, что есть у них, чего нет у нас, составлял тз и отправлял разработчикам.'`}
             ></ObjectText>
           </li>

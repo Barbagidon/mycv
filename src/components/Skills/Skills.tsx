@@ -26,7 +26,11 @@ export const Skills = ({ className, ...props }: SkillsProps): JSX.Element => {
   const { skillsList: visibleSkillsList } = useSelector(selectShowLists);
 
   return (
-    <div className={styles.listwrapper}>
+    <div
+      className={cn(styles.listwrapper, {
+        [styles.withoutscroll]: !visibleSkillsList,
+      })}
+    >
       <div className={styles.headerItem}>
         <button
           onClick={(): PayloadAction<boolean> =>

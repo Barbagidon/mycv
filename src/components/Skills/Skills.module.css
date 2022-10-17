@@ -11,6 +11,10 @@
 	height: 32vh;
 }
 
+.withoutscroll {
+	overflow: hidden;
+}
+
 .listwrapper::-webkit-scrollbar {
 	width: 2px;
 	/* ширина всей полосы прокрутки */
@@ -92,9 +96,10 @@
 
 
 .notactiveitem {
+	margin: 0;
 	height: 0;
 	opacity: 0;
-	margin: 0;
+
 }
 
 
