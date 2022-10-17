@@ -109,4 +109,8 @@
 	.literall {
 		font-size: 14px;
 	}
+
+	.variablesInner {
+		margin-top: 8px;
+	}
 }

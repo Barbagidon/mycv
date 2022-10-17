@@ -37,7 +37,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
       ></VarText>
 
       <ProjectsObjects
-        varName={"aboutproject"}
+        varName={"aboutProject"}
         projectTitle={`'Веб приложение с героями Marvel'`}
         projectDescription={`'Помимо вывода списка персонажей, реализовал возможность получения случайного героя, поиска героя по имени и просмотра информации о нем'`}
         stackTitle={`'Стек проекта'`}

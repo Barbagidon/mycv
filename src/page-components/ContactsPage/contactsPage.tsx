@@ -4,7 +4,7 @@ import { ContactsPageProps } from "./contactsPage.props";
 
 export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
   return (
-    <div {...props}>
+    <div className={styles.contactswrapper} {...props}>
       <VarText
         text={
           <a
