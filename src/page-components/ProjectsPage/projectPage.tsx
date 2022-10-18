@@ -8,7 +8,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
   return (
     <div {...props}>
       <VarText
-        text={`"Marvel portal"`}
+        text={`'Marvel portal'`}
         varname="projectName"
       ></VarText>
       <VarText
@@ -19,7 +19,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://marvelnext1.vercel.app/characters/1"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>
@@ -31,7 +31,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/marvelnext"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>
@@ -44,7 +44,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
         stackDescr={`'Next.js + Typescript'`}
       ></ProjectsObjects>
 
-      <VarText text={`"Owltop courses"`} varname="projectName"></VarText>
+      <VarText text={`'Owltop courses'`} varname="projectName"></VarText>
       <VarText
         varname={"projectLink"}
         text={
@@ -53,7 +53,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://topapp-two.vercel.app/courses/graphic-design"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>
@@ -65,7 +65,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/topapp"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>
@@ -79,7 +79,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
         stackDescr={`'Next.js + Typescript'`}
       ></ProjectsObjects>
 
-      <VarText text={`"Country Flags"`} varname="projectName"></VarText>
+      <VarText text={`'Country Flags'`} varname="projectName"></VarText>
       <VarText
         varname={"projectLink"}
         text={
@@ -88,7 +88,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://countries-rtk-typescript.vercel.app/"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>
@@ -100,7 +100,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/countries-rtk-typescript"
           >
-            "PRESS"
+            'PRESS'
           </a>
         }
       ></VarText>

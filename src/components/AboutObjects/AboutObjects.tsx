@@ -29,6 +29,7 @@ export const AboutObjects = ({
             >
               https://t.me/disajs
             </a>
+            '
           </ObjectText>
         </li>
         <li className={styles.objecttext}>
@@ -85,14 +86,14 @@ export const AboutObjects = ({
           </li>
           <li className={styles.secondkeyskeys}>
             <ObjectText
-              objKey={`"Анализ блокчейна"`}
-              objValue={`"Следил за транзакциями в блокчейне для анализа реферальных структур и поведения юзеров."`}
+              objKey={`'Анализ блокчейна'`}
+              objValue={`'Следил за транзакциями в блокчейне для анализа реферальных структур и поведения юзеров.'`}
               className={styles.secondkeyskeys}
             ></ObjectText>
           </li>
           <li className={styles.secondkeyskeys}>
             <ObjectText
-              objKey={`"Сделал ряд обучающих видеоуроков для пользователей"`}
+              objKey={`'Сделал ряд обучающих видеоуроков для пользователей'`}
               objValue={`'Тем самым решил большую часть однотипных вопросов юзеров'`}
               className={styles.secondkeyskeys}
             ></ObjectText>
@@ -100,14 +101,14 @@ export const AboutObjects = ({
           <li className={styles.secondkeyskeys}>
             <ObjectText
               objKey={`'Писал инструкции для новых сотрудников и обучал их'`}
-              objValue={`"Очень люблю обучать!"`}
+              objValue={`'Очень люблю обучать!'`}
               className={styles.secondkeyskeys}
             ></ObjectText>
           </li>
           <li className={styles.secondkeyskeys}>
             {" "}
             <ObjectText
-              objKey={`"Оперативно решал вопросы клиентов(Zendesk, Telegram)"`}
+              objKey={`'Оперативно решал вопросы клиентов(Zendesk, Telegram)'`}
               objValue={`'Начиная от того "как зарегистрироваться" , заканчивая вопросами по депозитам и выводам'`}
               className={styles.secondkeyskeys}
             ></ObjectText>
