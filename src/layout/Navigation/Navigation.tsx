@@ -12,11 +12,11 @@ export const Navigation = forwardRef(
     ref: ForwardedRef<HTMLElement>
   ): JSX.Element => {
     const router = useRouter();
-   
+
     return (
       <nav ref={ref} {...props} className={styles.nav}>
         {btnText.map((item) => (
-          <Link key={item.text} href={item.link}>
+          <Link scroll={false} key={item.text} href={item.link}>
             <NavBtn
               active={item.link === router.pathname ? "active" : "notactive"}
             >
