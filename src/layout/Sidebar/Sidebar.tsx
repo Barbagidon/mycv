@@ -16,6 +16,8 @@ export const Sidebar = ({ className, ...props }: SidebarProps): JSX.Element => {
             width={200}
             height={200}
             layout={"responsive"}
+            priority={true}
+            quality={100}
           ></Image>
         </div>
         {/* <img src= alt="avatar" /> */}
