@@ -68,7 +68,7 @@ export const AboutObjects = ({
         <VarText varname={"placesOfWork"} />
         <span className={styles.literall}>{"{"}</span>
       </div>
-      <div className={cn(styles.objecttextwrapper,styles.placeofworkwrapper)}>
+      <div className={cn(styles.objecttextwrapper, styles.placeofworkwrapper)}>
         <div className={styles.objectkey}>{"cryptoCurrencyExchange: {"}</div>
         <ul className={cn(styles.secondkeyswrapper, styles.placesOfWork)}>
           <li className={cn(styles.secondkeyskeys)}>
@@ -139,17 +139,36 @@ export const AboutObjects = ({
         <VarText varname={"myCourses"} />
         <span className={styles.literall}>{"["}</span>
       </div>
-      
+
       <ul className={styles.coursesWrapper}>
         <li className={styles.coursestext}>
-          'Полный курс по JavaScript + React - с нуля до результата',
+          <a
+            target={"_blank"}
+            href="https://www.udemy.com/course/javascript_full/"
+          >
+            'Полный курс по JavaScript + React - с нуля до результата',
+          </a>
         </li>
-        <li className={styles.coursestext}>'React с нуля для начинающих',</li>
         <li className={styles.coursestext}>
-          'React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid',
+          <a
+            target={"_blank"}
+            href="https://www.udemy.com/course/react-from-scratch/"
+          >
+            'React с нуля для начинающих',
+          </a>
         </li>
         <li className={styles.coursestext}>
-          'Redux для управления состоянием React-приложений'
+          <a
+            target={"_blank"}
+            href="https://www.udemy.com/course/react-nextjs/"
+          >
+            'React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid',
+          </a>
+        </li>
+        <li className={styles.coursestext}>
+          <a target={"_blank"} href="https://www.udemy.com/course/redux-react/">
+            'Redux для управления состоянием React-приложений'
+          </a>
         </li>
       </ul>
       <span className={styles.literall}>{"]"}</span>
