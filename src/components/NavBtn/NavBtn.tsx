@@ -4,7 +4,6 @@ import { NavBtnProps } from "./NavBtn.props";
 import CloseIcon from "./closeIcon.svg";
 import styles from "./NavBtn.module.css";
 import { ForwardedRef, forwardRef } from "react";
-import { useRouter } from "next/router";
 
 export const NavBtn = forwardRef(
   (

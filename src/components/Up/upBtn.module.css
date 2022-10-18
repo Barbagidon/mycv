@@ -1,0 +1,27 @@
+.btn {
+	display: none;
+	border: none;
+
+	bottom: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 100%;
+	background-color: var(--grey)
+}
+
+.arrowup {
+	width: 16px;
+	height: 16px;
+}
+
+
+@media(max-width:590px) {
+	.btn {
+		position: fixed;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		right: 12px;
+		bottom: 30px;
+	}
+}

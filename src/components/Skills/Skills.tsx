@@ -15,7 +15,7 @@ import SassIcon from "./Icons/SassIcon.svg";
 import HTMLIcon from "./Icons/HTMLIcon.svg";
 import GitIcon from "./Icons/GitIcon.svg";
 import ArrowIcon from "./Icons/arrowIcon.svg";
-import { useAppDispatch } from "../../hooks";
+import { useAppDispatch } from "../../hooks/useAppDispatch";
 import { useSelector } from "react-redux";
 import { selectShowLists } from "../../features/Lists/list-selectors";
 import { showSkillsList } from "../../features/Lists/lists-slice";
