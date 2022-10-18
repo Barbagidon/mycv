@@ -56,6 +56,7 @@
 @media(max-width: 1024px) {
 	.wrapper {
 		grid-template-columns: 300px 1fr;
+		grid-template-rows: auto 42px auto;
 
 	}
 
@@ -66,7 +67,7 @@
 @media(max-width: 768px) {
 	.wrapper {
 		grid-template-columns: 250px 1fr;
-		grid-template-rows: auto 40px auto;
+
 
 
 	}
