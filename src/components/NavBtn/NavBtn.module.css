@@ -22,7 +22,7 @@
 	background-color: var(--not-active-nav);
 }
 
-.closeIcon{
+.closeIcon {
 	width: 24px;
 	height: 24px;
 }
@@ -39,4 +39,14 @@
 		width: 14px;
 		height: 14px;
 	}
+}
+
+
+@media(max-width: 590px) {
+	.navBtn {
+		max-width: 120px;
+		font-size: 14px;
+		padding: 14px;
+	}
+
 }
