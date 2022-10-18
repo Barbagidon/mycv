@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
     <div className={styles.wrapper}>
       <Header className={styles.header} />
       <Sidebar className={styles.sidebar}></Sidebar>
-      <Navigation></Navigation>
+      <Navigation className={styles.nav}></Navigation>
       <main className={styles.body}>{children}</main>
     </div>
   );
