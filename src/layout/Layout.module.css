@@ -91,6 +91,7 @@
 	.body {
 		overflow: hidden;
 		height: auto;
+		margin-top: -1px;
 	}
 
 
