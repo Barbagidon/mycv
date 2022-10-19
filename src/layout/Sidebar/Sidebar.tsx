@@ -25,7 +25,7 @@ export const Sidebar = ({ className, ...props }: SidebarProps): JSX.Element => {
           Денис Штиллер
         </Htag>
         <div className={styles.hello}>Hello world!✋</div>
-        <div className={styles.frontend}>Frontent-developer</div>
+        <div className={styles.frontend}>Frontend-developer</div>
       </div>
 
       <hr className={styles.line} />
