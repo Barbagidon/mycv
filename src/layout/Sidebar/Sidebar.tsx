@@ -20,7 +20,6 @@ export const Sidebar = ({ className, ...props }: SidebarProps): JSX.Element => {
             quality={100}
           ></Image>
         </div>
-        {/* <img src= alt="avatar" /> */}
         <Htag tag="h3" className={styles.name}>
           Денис Штиллер
         </Htag>

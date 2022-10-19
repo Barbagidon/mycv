@@ -116,24 +116,7 @@ export const AboutObjects = ({
         </ul>
         <span className={styles.literallInObject}>{"},"}</span>
       </div>
-      <div className={styles.objecttextwrapper}>
-        <div className={styles.objectkey}>{"levisShop: {"}</div>
-        <ul className={styles.secondkeyswrapper}>
-          <li className={cn(styles.secondkeyskeys)}>
-            <ObjectText
-              objKey={`'Работал с клиентами'`}
-              objValue={`'Прямые продажи'`}
-            ></ObjectText>
-          </li>
-          <li className={styles.secondkeyskeys}>
-            <ObjectText
-              objKey={`'Работал с KPI'`}
-              objValue={`'Выполнение показателей плана продаж'`}
-            ></ObjectText>
-          </li>
-        </ul>
-        <span className={styles.literallInObject}>{"},"}</span>
-      </div>
+
       <span className={styles.literall}>{"}"}</span>
 
       <div {...props} className={cn(styles.variablesInner, className)}>
