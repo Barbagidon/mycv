@@ -17,8 +17,7 @@ export const UpBtn = ({ scrollref, ...props }: upBtnProps): JSX.Element => {
       scrollref.current.getBoundingClientRect().y < 1000
     ) {
       setBtnOpacity(
-        (scrollref.current.getBoundingClientRect().y /
-          (window.scrollY + 20)) *
+        (scrollref.current.getBoundingClientRect().y / (window.scrollY + 20)) *
           -2.3
       );
     }
@@ -39,7 +38,8 @@ export const UpBtn = ({ scrollref, ...props }: upBtnProps): JSX.Element => {
         opacity: btnOpacity,
         display:
           scrollref.current &&
-          scrollref.current.getBoundingClientRect().y < 1000
+          scrollref.current.getBoundingClientRect().y < 1000 &&
+          window.innerWidth > 590
             ? "flex"
             : "none",
       }}

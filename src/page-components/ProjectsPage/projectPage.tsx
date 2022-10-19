@@ -19,7 +19,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://marvelnext1.vercel.app/characters/1"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>
@@ -31,7 +31,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/marvelnext"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>
@@ -53,7 +53,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://topapp-two.vercel.app/courses/graphic-design"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>
@@ -65,7 +65,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/topapp"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>
@@ -88,7 +88,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://countries-rtk-typescript.vercel.app/"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>
@@ -100,7 +100,7 @@ export function ProjectPage({ ...props }: ProjectPageProps): JSX.Element {
             target={"_blank"}
             href="https://github.com/Barbagidon/countries-rtk-typescript"
           >
-            'PRESS'
+           link
           </a>
         }
       ></VarText>

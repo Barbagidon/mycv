@@ -23,7 +23,7 @@
 }
 
 .body {
-	height: 92vh;
+	height: 87vh;
 	overflow-y: auto;
 	grid-area: body;
 	background-color: var(--black);
