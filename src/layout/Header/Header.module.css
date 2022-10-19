@@ -1,10 +1,7 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+
     background-color: var(--grey);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 14px 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -12,24 +9,7 @@
 }
 
 
-.toolsItem {
-    display: inline;
-    margin-right: 25px;
-    color: var(--light-grey);
 
-}
-
-.toolsItem:last-child {
-    margin-right: 0;
-}
-
-.toolslist {
-    margin: 0;
-    margin-top: 13px;
-    margin-bottom: 13px;
-    list-style: none;
-    padding: 0;
-}
 
 
 .myResume {
@@ -39,18 +19,12 @@
 }
 
 
-.closeIcon {
-    justify-self: end;
-    height: 24px;
 
-}
 
 
 
 @media (max-width:1300px) {
     .header {
-        grid-template-columns: 1fr auto;
-        justify-items: center;
         padding-left: 14px;
         padding-right: 14px;
         padding-top: 8px;
@@ -58,9 +32,6 @@
 
     }
 
-    .toolslist {
-        display: none;
-    }
 
     .myResume {
         margin: 0 !important;
@@ -74,8 +45,6 @@
 
 @media (max-width:590px) {
     .header {
-
-
         padding-left: 30px;
     }
 }

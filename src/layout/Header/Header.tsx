@@ -7,7 +7,7 @@ import { Htag } from "../../components/Htag/Htag";
 export const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
   return (
     <header {...props} className={cn(styles.header, className)}>
-      <ul className={styles.toolslist}>
+      {/* <ul className={styles.toolslist}>
         <li className={styles.toolsItem}>File</li>
         <li className={styles.toolsItem}>Edit</li>
         <li className={styles.toolsItem}>Selection</li>
@@ -16,13 +16,13 @@ export const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
         <li className={styles.toolsItem}>Run</li>
         <li className={styles.toolsItem}>Terminal</li>
         <li className={styles.toolsItem}>Help</li>
-      </ul>
+      </ul> */}
 
       <Htag tag="h1" className={styles.myResume}>
         MY_RESUME
       </Htag>
 
-      <CloseIcon className={styles.closeIcon}></CloseIcon>
+      {/* <CloseIcon className={styles.closeIcon}></CloseIcon> */}
     </header>
   );
 };
