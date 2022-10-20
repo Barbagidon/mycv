@@ -72,6 +72,12 @@ export const AboutObjects = ({
       <div className={cn(styles.objecttextwrapper, styles.placeofworkwrapper)}>
         <div className={styles.objectkey}>{"cryptoCurrencyExchange: {"}</div>
         <ul className={cn(styles.secondkeyswrapper, styles.placesOfWork)}>
+        <li className={cn(styles.secondkeyskeys)}>
+            <ObjectText
+              objKey={`'Должность'`}
+              objValue={`'Техническая поддержка'`}
+            ></ObjectText>
+          </li>
           <li className={cn(styles.secondkeyskeys)}>
             <ObjectText
               objKey={`'Писал тз для разработчиков по результатам анализа других криптопроектов'`}
