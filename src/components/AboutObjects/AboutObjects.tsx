@@ -19,7 +19,7 @@ export const AboutObjects = ({
       <ul className={cn(styles.objecttextwrapper, styles.about)}>
         <li className={styles.objecttext}>
           <ObjectText
-            objKey={`'Очень люблю учиться и очень люблю фронтенд'`}
+            objKey={`'Люблю учиться и люблю фронтенд'`}
             objValue={`'Обучаюсь от 4 часов в день и даже веду телеграм канал об этом, чтобы следить за своими успехами и мотивировать других. Вот ссылка: `}
           >
             <a
@@ -41,7 +41,7 @@ export const AboutObjects = ({
         <li className={styles.objecttext}>
           <ObjectText
             objKey={`'Умею правильно распределять время'`}
-            objValue={`'У меня есть тудулист(приложение habitica), где я контролирую выполнение всех поставленных на день задач. Долго приучал себя, но это того стоило.'`}
+            objValue={`'У меня есть тудулист (приложение habitica), где я контролирую выполнение всех поставленных на день задач. Долго приучал себя, но это того стоило.'`}
           ></ObjectText>
         </li>
         <li className={styles.objecttext}>
@@ -114,7 +114,7 @@ export const AboutObjects = ({
           <li className={styles.secondkeyskeys}>
             {" "}
             <ObjectText
-              objKey={`'Оперативно решал вопросы клиентов(Zendesk, Telegram)'`}
+              objKey={`'Оперативно решал вопросы клиентов (Zendesk, Telegram)'`}
               objValue={`'Начиная от того "как зарегистрироваться" , заканчивая вопросами по депозитам и выводам'`}
               className={styles.secondkeyskeys}
             ></ObjectText>
