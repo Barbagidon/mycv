@@ -20,7 +20,7 @@ export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
 
       <VarText
         text={
-          <a className={styles.link} target={"_blank"} href="tel:+7707364059">
+          <a className={styles.link} target={"_blank"} href="tel:+77073640594">
             +77073640594
           </a>
         }
