@@ -1,6 +1,7 @@
 .listwrapper {
 	display: grid;
 	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
 	justify-content: center;
 	align-items: baseline;
 	gap: 0 12px;
