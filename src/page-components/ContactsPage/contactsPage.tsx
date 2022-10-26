@@ -10,6 +10,19 @@ export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
           <a
             className={styles.link}
             target={"_blank"}
+            href="https://www.linkedin.com/in/denis-shtiller-62b4a1251/"
+          >
+            LinkedIn
+          </a>
+        }
+        varname="MyLinkedIn"
+      />
+
+      <VarText
+        text={
+          <a
+            className={styles.link}
+            target={"_blank"}
             href="mailto:shtiller8@gmail.com"
           >
             shtiller8@gmail.com
