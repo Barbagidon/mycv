@@ -38,7 +38,7 @@ export const UpBtn = ({ scrollref, ...props }: upBtnProps): JSX.Element => {
         opacity: btnOpacity,
         display:
           scrollref.current &&
-          scrollref.current.getBoundingClientRect().y < 1000 &&
+          scrollref.current.getBoundingClientRect().y < 500 &&
           window.innerWidth < 590
             ? "flex"
             : "none",
