@@ -36,12 +36,12 @@ export const UpBtn = ({ scrollref, ...props }: upBtnProps): JSX.Element => {
       }
       style={{
         opacity: btnOpacity,
-        display:
-          scrollref.current &&
-          scrollref.current.getBoundingClientRect().y < 1000 &&
-          window.innerWidth > 590
-            ? "flex"
-            : "none",
+        // display:
+        //   scrollref.current &&
+        //   scrollref.current.getBoundingClientRect().y < 1000 &&
+        //   window.innerWidth < 590
+        //     ? "flex"
+        //     : "none",
       }}
       className={styles.btn}
       {...props}
