@@ -15,7 +15,7 @@ export function ContactsPage({ ...props }: ContactsPageProps): JSX.Element {
             LinkedIn
           </a>
         }
-        varname="MyLinkedIn"
+        varname="myLinkedIn"
       />
 
       <VarText
